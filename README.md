@@ -1,20 +1,17 @@
-# ThinkBridge
+# ImageGallery
 
-Introduction: The application is build using React, React Native and Redux, This application helps users to upload their photos in a specific category like landscape, portrait, etc or create their own category and upload pictures in that specific category.
-There is a Favourites component which will keep track of your photos which you have marked as favourites, also it gives you the power to unfavourite and image.
-Search box is really useful in finding a specific category.
+Application Features
 
+1. Technologies Used: React Native and Redux.
+2. Users can upload an image from their own photo library or take a picture from the camera.
+3. Users can upload the photo to a specific category or they can also add mulitple categories
+4. Users can add photos to their favourites which can be seen in the favourites section.
+5. Users can also remove a specific photo from their favourites.
 
-Technologies Used: React, React Native and Redux.
-Libraries used: React Native Permission, React Native Image Picker, React Navigation
-Versions: React Native:0.66.4 (Latest and Stable), React Navigation^6.0.6(Lastest and Stable)
-
-Platform Supported: IOS and Android
-
-How to Use:
+Application Setup Steps -
 
 1. Clone the project.
-2. Do npm install
+2. Type npm install in the terminal.
 3. On Apple do cd ios and pod install and cd ..
 4. On Android npx react-native run-android
-5.on IOS npx react-native run-ios
+5. On IOS npx react-native run-ios
